@@ -44,11 +44,6 @@ def draw():
       rect(i * w, j * w, w-1, w-1)
     
   
-# reset board when mouse is pressed
-def mousePressed():
-  init()
-
-
 # Fill board randomly
 def init():
   for  i in range(columns):
